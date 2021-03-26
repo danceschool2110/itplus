@@ -1,0 +1,34 @@
+.div_dangky{
+    text-align: center;
+    color: deepskyblue;
+}
+.nenxanh_chutrang{
+    background-color: deepskyblue;
+    color: white;
+}
+.form1{
+    width: 45%;
+    border-width: 1%;
+    border-color: black;
+    border-style: solid;
+}
+.form2{
+    margin-left: 50%;
+    width: 45%;
+    border-width: 1%;
+    border-color: black;
+    border-style: solid;
+}
+label{
+    width: 30%;
+}
+input{
+    width: 60%;
+    margin-left: 35%;
+    border-color:black;
+    border-width: 0.1%;
+    border-style: solid;
+}
+input[type=radio]{
+    display:block;
+}

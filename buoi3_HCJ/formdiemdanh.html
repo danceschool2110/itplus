@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buoi3_HCJ</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <form action="https://604f548bc20143001744cc5c.mockapi.io/submit/diemdanh" method="POST">
+        <label>Ten</label>
+        <input type="text" name="Ten" required>
+
+        <label>MSSV</label>
+        <input type="text" name="MSSV" required>
+
+        <label>MaBiMat</label>
+        <input type="number" name="MaBiMat" min="99" max="1000" required>
+
+        <label>Email</label>
+        <input type="email" name="Email">
+
+        <label>Phone</label>
+        <input type="tel" name="Phone">
+        <label>HTML</label>
+        <textarea name="HTML"></textarea>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
